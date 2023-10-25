@@ -6,8 +6,8 @@ export function Introduction() {
     return (
         <div className="bg-[#131424]/60 w-full z-10">
             <div className="w-full h-full bg-gradient-to-r from-[#131424]/10 via-black/30 to-black/10">
-                <div className="container grid items-center h-full px-5 mx-auto md:grid-cols-2 md:text-left">
-                    <motion.div className="hidden w-auto h-auto mx-auto md:block"
+                <div className="container grid items-center h-full px-5 mx-auto pt-24 md:grid-cols-2 md:text-left">
+                    <motion.div className=" w-auto h-auto mx-auto block"
                         variants={fadeIn('right', 0.5)}
                         initial="hidden"
                         animate="show"
@@ -20,10 +20,11 @@ export function Introduction() {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
+                        className="flex flex-col items-center pb-16 justify-center w-full h-full text-white md:items-start"
                     >
-                        <h1 className="mb-5 text-4xl leading-tight md:mb-10">Si puedes pensarlo,  <br />
-                            <span className="text-secondary">puedes programarlo</span></h1>
-                        <p className="max-w-sm  mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
+                        <h1 className="mb-5 text-4xl leading-tight md:mb-10 text-center md:text-left">Si puedes pensarlo,  <br />
+                            <span className="text-secondary text-center md:text-left">puedes programarlo</span></h1>
+                        <p className="max-w-sm w-full text-center md:text-left  mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero dolor, aliquam eu interdum sed, dignissim placerat nulla.
                         </p>
 

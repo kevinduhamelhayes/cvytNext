@@ -1,4 +1,4 @@
-import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine } from "react-icons/ri";
+import { RiInstagramLine, RiYoutubeLine, RiWhatsappLine, RiLinkedinLine } from "react-icons/ri";
 
 export const socialNetworks = [
   {
@@ -10,19 +10,11 @@ export const socialNetworks = [
     src: "https://youtube.com/@tarredev",
   },
   {
-    logo: <RiTiktokLine size="40" />,
+    logo: <RiLinkedinLine size="40" />,
+    src: "https://linkedin.com/in/kevin-duhamel-9b0b0a1b9",
+  },
+  {
+    logo: <RiWhatsappLine size="40" />,
     src: "https://tiktok.com/@tarredev",
-  },
-  {
-    logo: <RiPinterestLine size="40" />,
-    src: "https://pinterest.com/tarredev",
-  },
-  {
-    logo: <RiTwitterXFill size="40" />,
-    src: "https://twitter.com/tarredev",
-  },
-  {
-    logo: <RiBehanceLine size="40" />,
-    src: "#!",
   },
 ];
