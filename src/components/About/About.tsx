@@ -11,7 +11,7 @@ export function About() {
     const [index, setIndex] = useState(0)
 
     return (
-        <div className="items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0">
+        <div className="items-center min-h-screen px-6 pt-10 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0">
             <Avatar />
 
             <motion.div
@@ -36,14 +36,13 @@ export function About() {
                         </div>
                     ))}
                 </div>
-
-                <div className="flex flex-col mt-10 mb-3 md:flex-row justify-evenly md:mt-28 md:mb-5">
+                <div className="flex flex-col mt-10 mb-3 md:flex-row justify-evenly md:mt-28 md:mb-5 ">
                     {dataAboutSkills.map((dataText, itemIndex) => {
                         const { id, text } = dataText;
 
                         return (
                             <div key={id}
-                                className={`${index === id ? 'text-secondary duration-300 transition-all border-secondary' : 'border-white'} 
+                                className={`xl:mx-4 ${index === id ? 'text-secondary duration-300 transition-all border-secondary' : 'border-white'} 
                                         cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-3`}
                                 onClick={() => setIndex(itemIndex)}
                             >

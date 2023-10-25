@@ -1,29 +1,29 @@
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
+    endCounter: 2,
     text: "Años de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
+    endCounter: 15,
     text: "Clientes satisfechos",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
+    endCounter: 82,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
+    endCounter: 20,
+    text: "Stack tecnologico",
     lineRight: false,
     lineRightMobile: false,
   },
@@ -36,11 +36,11 @@ export const dataAboutSkills = [
     skills: [
       {
         title: "Frontend Developer",
-        date: "2017",
+        date: "2022",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Junior Full Stack Developer",
+        date: "2023",
       },
     ],
   },
@@ -49,12 +49,12 @@ export const dataAboutSkills = [
     text: "Experiencia",
     skills: [
       {
-        title: "Netflix Inc.",
-        date: "2015",
+        title: "Prácticas en StartUp Tech",
+        date: "2022",
       },
       {
-        title: "Amazon",
-        date: "2020",
+        title: "Desarrollador Junior en LocalTech",
+        date: "2023",
       },
     ],
   },
@@ -63,26 +63,26 @@ export const dataAboutSkills = [
     text: "Estudios",
     skills: [
       {
-        title: "Grado Universitario en Florida",
-        date: "2012-2016",
+        title: "Curso intensivo de programación",
+        date: "2022",
       },
       {
-        title: "Máster desarrollo Frontend",
-        date: "2016-2018",
+        title: "Taller avanzado de desarrollo Frontend",
+        date: "2023",
       },
     ],
   },
   {
     id: 3,
-    text: "Masters",
+    text: "Cursos adicionales",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "React y Redux Avanzado",
+        date: "2022",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Introducción a Node.js y Express",
+        date: "2023",
       },
     ],
   },

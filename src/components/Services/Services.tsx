@@ -26,7 +26,7 @@ export function Services() {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="max-w-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.
+                        className="max-w-md"> Estoy dedicado a transformar ideas en experiencias digitales excepcionales. Mi pasión radica en crear interfaces de usuario que no solo se vean bien, sino que también sean intuitivas y funcionales.
                     </motion.p>
                 </div>
 
