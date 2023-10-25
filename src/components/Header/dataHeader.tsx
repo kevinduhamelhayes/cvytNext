@@ -3,18 +3,18 @@ import { RiInstagramLine, RiYoutubeLine, RiWhatsappLine, RiLinkedinLine } from "
 export const socialNetworks = [
   {
     logo: <RiInstagramLine size="40" />,
-    src: "https://instagram.com/tarredev",
+    src: "https://instagram.com/kevinduhamelhayes",
   },
   {
     logo: <RiYoutubeLine size="40" />,
-    src: "https://youtube.com/@tarredev",
+    src: "https://youtube.com/",
   },
   {
     logo: <RiLinkedinLine size="40" />,
-    src: "https://linkedin.com/in/kevin-duhamel-9b0b0a1b9",
+    src: "https://www.linkedin.com/in/kevin-duhamel-hayes/",
   },
   {
     logo: <RiWhatsappLine size="40" />,
-    src: "https://tiktok.com/@tarredev",
+    src: "https://api.whatsapp.com/send/?phone=%2B543415883040",
   },
 ];
