@@ -1,12 +1,12 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary, SiAstro } from "react-icons/si";
 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
+    title: "La Velada Landing",
     description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+      "tribute to the landing page of the Ibai ",
+    imageUrl: "/work1.png",
     skills: [
       {
         icon: <SiReact size="40" />
@@ -15,7 +15,7 @@ export const cardContent = [
         icon: <SiTailwindcss size="40" />
       },
       {
-        icon: <SiTestinglibrary size="40" />
+        icon: <SiAstro size="40" />
       },
     ]
   },
